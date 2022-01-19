@@ -8,10 +8,12 @@ const fizzbuss = (num) => {
 }
 
 const foo = (limit) => {
+  // Imperative
   // for (let i = 0; i <= limit; i++) {
   //   console.log(fizzbuss(i))
   // }
 
+  // Declarative
   const array = Array(limit).fill(0).map((e, i) => e + i)
   array.forEach(e => console.log(fizzbuss(e)))
 }
