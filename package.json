@@ -1,14 +1,14 @@
 {
   "name": "practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple practice jest and node",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch fizzbuss.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["practice", "fizzbuzz", "jest", "node"],
+  "author": "@mappedev @kevelscy",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.4.7"
